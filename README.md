@@ -71,7 +71,7 @@ Both `encode` and `decode` also dispatch over three-argument calls by adding a `
 
 If it is `nothing`, codec failures are silently ignored:
 ```julia
-data = encode("μηχανικός means 'engineer' in greek", ISO_LATIN_1(), nothing)
+julia> data = encode("μηχανικός means 'engineer' in greek", ISO_LATIN_1(), nothing)
 26-element Vector{UInt8}:
  0x20
  0x6d
@@ -92,7 +92,7 @@ julia> decode(data, ISO_LATIN_1())
 ```
 If it is a `UInt8` (for encoding) or a `Char` (for decoding), the troubling entry is replaced by the given fallback:
 ```julia
-data = encode("μηχανικός means 'engineer' in greek", ISO_LATIN_1(), UInt8('?'))
+julia> data = encode("μηχανικός means 'engineer' in greek", ISO_LATIN_1(), UInt8('?'))
 35-element Vector{UInt8}:
  0x3f
  0x3f
