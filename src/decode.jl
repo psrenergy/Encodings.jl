@@ -6,7 +6,7 @@ function decode(s::Vector{UInt8}, e::Encoding)
     String(filter(c -> !isnothing(c), [decode(c, e) for c in s]))
 end
 
-function decode(s::String, e::Encoding, fallback::Union{Char, Nothing})
+function decode(s::Vector{UInt8}, e::Encoding, fallback::Union{Char, Nothing})
     String(filter(c -> !isnothing(c), [decode(c, e, fallback) for c in s]))
 end
 

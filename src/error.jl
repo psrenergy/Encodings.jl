@@ -11,7 +11,7 @@ struct DecodingError <: Exception
     c::UInt8
     e::Encoding
 
-    function EncodingError(c::UInt8, e::Encoding)
+    function DecodingError(c::UInt8, e::Encoding)
         new(c, e)
     end
 end
