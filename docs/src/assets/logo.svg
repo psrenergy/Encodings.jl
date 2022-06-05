@@ -1,0 +1,72 @@
+<svg width="1000px" height="1000px" viewBox="-250 -250 2000 2000" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style type="text/css">
+        .red{
+            fill: #cb3c33;
+            stroke: #cb3c33;
+        }
+
+        .green{
+            fill: #389826;
+            stroke: #389826;
+        }
+
+        .blue{
+            fill: #4063d8;
+            stroke: #4063d8;
+        }
+
+        .violet{
+            fill: #9558b2;
+            stroke: #9558b2;
+        }
+
+        .line{
+            fill: none;
+            stroke-width: 10px;
+        }
+        
+        .text{
+            font-family: Helvetica;
+            font-size: 300pt;
+            text-anchor: middle;
+            font-style: italic;
+            stroke: #000;
+            stroke-width: 8px;
+        }
+        </style>
+    </defs>
+
+    <!-- Eulerian Cycle -->
+    <path class="blue line" d="
+        M1200 1000
+        L 600 1000
+        L 900  500
+        L1200    0
+        L1500  500
+        L 900  500
+        L1200 1000
+        L 900 1500
+        L 600 1000
+        L 300  500
+        L   0 1000
+        L 600 1000
+        L 300 1500
+        L 900 1500
+    "/> 
+
+    <circle class="blue" r="30px" cx="1200" cy="0"   />
+    <circle class="blue" r="30px" cx="300"  cy="500" />
+    <circle class="blue" r="30px" cx="900"  cy="500" />
+    <circle class="blue" r="30px" cx="1500" cy="500" />
+    <circle class="blue" r="30px" cx="0"    cy="1000"/>
+    <circle class="blue" r="30px" cx="600"  cy="1000"/>
+    <circle class="blue" r="30px" cx="1200" cy="1000"/>
+    <circle class="blue" r="30px" cx="300"  cy="1500"/>
+    <circle class="blue" r="30px" cx="900"  cy="1500"/>
+
+    <text class="red text"    x="250"  y="900" >abc</text>
+    <text class="violet text" x="1250" y="400" >αβγ</text>
+    <text class="green text"  x="1050" y="1400">אבג</text>
+
+</svg>

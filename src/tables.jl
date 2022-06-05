@@ -1,4 +1,5 @@
-# Encoding
+# ISO_LATIN_1 tables from:
+# https://www.ime.usp.br/~pf/algoritmos/apend/iso-latin-1.html
 const ENCODE_ISO_LATIN_1 = Dict{Char, UInt8}(
     ' ' => 0xA0, # non-breaking space
     '¡' => 0xA1, # exclamação invertida
