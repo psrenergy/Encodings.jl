@@ -27,17 +27,35 @@
         }
         
         .text{
-            font-family: Helvetica;
-            font-size: 300pt;
             text-anchor: middle;
-            font-style: italic;
             stroke: #000;
-            stroke-width: 8px;
+        }
+
+        .mono{
+            font-size: 160pt;
+            font-weight: bold;
+            font-family: 'Courier New', monospace;
+            stroke-width: 10px;
+        }
+
+        .times{
+            font-size: 200pt;
+            font-family: 'Times New Roman', times, serif;
+            stroke-width: 7px;
+        }
+
+        .sans{
+            font-size: 250pt;
+            font-weight: bold;
+            font-family: 'Arial', Helvetica, sans-serif;
+            font-style: italic;
+            stroke-width: 10px;
         }
         </style>
     </defs>
 
     <!-- Eulerian Cycle -->
+    s
     <path class="blue line" d="
         M1200 1000
         L 600 1000
@@ -53,20 +71,21 @@
         L 600 1000
         L 300 1500
         L 900 1500
-    "/> 
+    " />
 
-    <circle class="blue" r="30px" cx="1200" cy="0"   />
-    <circle class="blue" r="30px" cx="300"  cy="500" />
-    <circle class="blue" r="30px" cx="900"  cy="500" />
+    <circle class="blue" r="30px" cx="1200" cy="0" />
+    <circle class="blue" r="30px" cx="300" cy="500" />
+    <circle class="blue" r="30px" cx="900" cy="500" />
     <circle class="blue" r="30px" cx="1500" cy="500" />
-    <circle class="blue" r="30px" cx="0"    cy="1000"/>
-    <circle class="blue" r="30px" cx="600"  cy="1000"/>
-    <circle class="blue" r="30px" cx="1200" cy="1000"/>
-    <circle class="blue" r="30px" cx="300"  cy="1500"/>
-    <circle class="blue" r="30px" cx="900"  cy="1500"/>
+    <circle class="blue" r="30px" cx="0" cy="1000" />
+    <circle class="blue" r="30px" cx="600" cy="1000" />
+    <circle class="blue" r="30px" cx="1200" cy="1000" />
+    <circle class="blue" r="30px" cx="300" cy="1500" />
+    <circle class="blue" r="30px" cx="900" cy="1500" />
 
-    <text class="red text"    x="250"  y="900" >abc</text>
-    <text class="violet text" x="1250" y="400" >αβγ</text>
-    <text class="green text"  x="1050" y="1400">אבג</text>
+
+    <text class="red text mono" x="750" y="310">ISO-����-�</text>
+    <text class="green text times" x="750" y="840">PSREncodings.jl</text>
+    <text class="violet text sans" x="750" y="1400">UTF-�</text>
 
 </svg>
