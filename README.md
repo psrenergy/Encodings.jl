@@ -9,6 +9,9 @@
     <a href="https://github.com/psrenergy/PSREncodings.jl/actions/workflows/ci.yml">
         <img src="https://github.com/psrenergy/PSREncodings.jl/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI" />
     </a>
+    <a href="https://codecov.io/gh/psrenergy/PSREncodings.jl">
+      <img src="https://codecov.io/gh/psrenergy/PSREncodings.jl/branch/master/graph/badge.svg?token=0P1MVOMZJ0"/>
+    </a>
 </div>
 
 ## Getting Started
