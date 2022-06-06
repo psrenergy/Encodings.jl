@@ -85,7 +85,7 @@
 
 
     <text class="red text mono" x="750" y="310">ISO-����-�</text>
-    <text class="green text times" x="750" y="840">PSREncodings.jl</text>
+    <text class="green text times" x="750" y="840">EncodingMachine.jl</text>
     <text class="violet text sans" x="750" y="1400">UTF-�</text>
 
 </svg>
