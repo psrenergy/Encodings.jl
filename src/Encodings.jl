@@ -1,4 +1,4 @@
-module PSREncodings
+module Encodings
 
 export UTF8, ISO_8859_1, ISO_LATIN_1
 export encode, decode
