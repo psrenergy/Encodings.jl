@@ -113,6 +113,6 @@ julia> decode(data, ISO_LATIN_1())
 ```
 
 ## Supported Encodings
-| Name       | Type                       |
+| Name       | Encoding Type              |
 | :--------- | :------------------------- |
 | ISO-8859-1 | `ISO_8859_1` `ISO_LATIN_1` |
