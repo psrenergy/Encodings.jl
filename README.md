@@ -111,3 +111,8 @@ julia> data = encode("μηχανικός means 'engineer' in greek", ISO_LATIN_1
 julia> decode(data, ISO_LATIN_1())
 "????????? means 'engineer' in greek"
 ```
+
+## Supported Encodings
+| Name       | Type                       |
+| :--------- | :------------------------- |
+| ISO-8859-1 | `ISO_8859_1` `ISO_LATIN_1` |
