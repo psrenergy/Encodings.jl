@@ -1,7 +1,7 @@
 name = "Encodings"
 uuid = "8275c4fe-57c3-4fbf-b39c-271e6148849a"
 authors = ["pedromxavier <pedroxavier@psr-inc.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [compat]
 julia = "1.6"
