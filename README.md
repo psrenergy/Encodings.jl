@@ -18,7 +18,7 @@
 
 ### Installation
 ```julia
-julia> ]add https://github.com/psrenergy/Encodings.jl#master
+julia> ]add Encodings
 ```
 
 ### Basic Usage
